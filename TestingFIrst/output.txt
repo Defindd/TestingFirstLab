@@ -1,0 +1,141 @@
+
+TEST ¹1
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 8888888888888888888888888888888888888
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 8888888888888888888888888888888888888
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 8888888888888888888888888888888888888
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 8888888888888888888888888888888888888
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 8888888888888888888888888888888888888
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 8888888888888888888888888888888888888
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 8888888888888888888888888888888888888
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 8888888888888888888888888888888888888
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 8888888888888888888888888888888888888
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 8888888888888888888888888888888888888
+
+ inputCount: 10
+
+ mutltiplicity: 1
+
+ Should be: 350
+Answer: 3079461760722891852988361867604144300048323500477398878439703951287132557647384627169861664989945449288468078777911708680142029353712847320655144415021687121207451663116255002790557903638754004405408327989813045618574874655510198731046497598444785382012711127059964973557466896480069889495810929382292706640372848839696237665084775891019682746469335562170262518103015424
+Answer isn't correct!
+1->2->3->5->6->7->8->9->10->11->12->13->14->16->17->9->10->11->12->13->14->16->17->9->10->11->12->13->14->16->17->9->10->11->12->13->14->16->17->9->10->11->12->13->14->16->17->9->10->11->12->13->14->16->17->9->10->11->12->13->14->16->17->9->10->11->12->13->14->16->17->9->10->11->12->13->14->16->17->9->10->11->12->13->14->16->17->9->18->19->20
+-----------------------------------------------------------------------
+
+TEST ¹2
+Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 0
+
+ inputCount: 1
+
+ mutltiplicity: 2
+
+ Should be: Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Answer: Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Answer is correct!
+1->2->6->4->6->4->6->4->7->8->9->10->11->12->13->14->16->17->9->18->19->20
+-----------------------------------------------------------------------
+
+TEST ¹3
+Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 0
+
+ inputCount: 1
+
+ mutltiplicity: 2
+
+ Should be: Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Answer: Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Answer is correct!
+1->2->5->4->7->8->9->10->11->12->13->14->16->17->9->18->19->20
+-----------------------------------------------------------------------
+
+TEST ¹4
+Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 0
+
+ inputCount: 1
+
+ mutltiplicity: 2
+
+ Should be: Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Answer: Invalid input, please input the amount of numbers and multiplicity separated by spaces
+Answer is correct!
+1->2->6->4->7->8->9->10->11->12->13->14->16->17->9->18->19->20
+-----------------------------------------------------------------------
+
+TEST ¹5
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 555555555555555555555555555555555555555555555555555555555555555555555
+Invalid input!
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 0
+
+ inputCount: 1
+
+ mutltiplicity: 1
+
+ Should be: Invalid input!
+Answer: Invalid input!
+Answer is correct!
+1->2->3->5->6->7->8->9->10->11->12->15->16->17->9->10->11->12->13->14->16->17->9->18->19->20
+-----------------------------------------------------------------------
+
+TEST ¹6
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 5
+Input float from 1.17549e-38 to 3.40282e+38
+
+input: 10
+
+ inputCount: 2
+
+ mutltiplicity: 2
+
+ Should be: 5
+Answer: 5
+Answer is correct!
+1->2->3->5->6->7->8->9->10->11->12->13->14->16->17->9->10->11->12->14->16->17->9->18->19->20
+-----------------------------------------------------------------------
+
+TEST ¹7
+
+ inputCount: 0
+
+ mutltiplicity: 1
+
+ Should be: 0
+Answer: 0
+Answer is correct!
+1->2->3->5->6->7->8->9->18->19->20
+-----------------------------------------------------------------------

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\79068\OneDrive\Рабочий стол\bigfloat\Source.cpp(76,11): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\79068\OneDrive\Рабочий стол\bigfloat\Source.cpp(115,10): warning C4129: l: неизвестная escape-последовательность
+  TestingFIrst.vcxproj -> C:\Users\79068\source\repos\TestingFIrst\Debug\TestingFIrst.exe
